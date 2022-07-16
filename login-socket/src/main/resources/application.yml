@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+open-api:
+  servers: /api
+
+springdoc:
+  swagger-ui:
+    path: /
+    operations-sorter: alpha
+    tags-sorter: alpha
+    doc-expansion: list
